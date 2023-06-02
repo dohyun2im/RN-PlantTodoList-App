@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Fonts">
+      <FileRef
+         location = "group:../../Fonts/AntDesign.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/Entypo.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/EvilIcons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/Feather.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/FontAwesome.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/FontAwesome5_Brands.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/FontAwesome5_Regular.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/FontAwesome5_Solid.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/Fontisto.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/Foundation.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/Ionicons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/MaterialCommunityIcons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/MaterialIcons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/Octicons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/SimpleLineIcons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:../../Fonts/Zocial.ttf">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:PlantToDoApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
