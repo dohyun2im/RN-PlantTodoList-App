@@ -2,10 +2,12 @@ import {createSlice} from '@reduxjs/toolkit';
 
 interface state {
   todoList: any[];
+  reverse: boolean;
 }
 
 const initialState:state = {
-  todoList: []
+  todoList: [],
+  reverse: false,
 };
 
 const todoSlice = createSlice({
@@ -15,9 +17,12 @@ const todoSlice = createSlice({
     setTodo(state, action) {
       state.todoList = action.payload;
     },
+    setReverse(state, action) {
+      state.reverse = action.payload;
+    }
   },
   extraReducers: builder => {},
 });
 
 export default todoSlice;
-export const {setTodo} = todoSlice.actions;
+export const {setTodo, setReverse} = todoSlice.actions;

@@ -14,7 +14,7 @@ function TodoInput({text, onChange}:Props) {
   return (
     <DismissKeyboardView onPress={handlePressOutside}>
         <View style={styles.input}>
-            <Text>
+            <Text style={styles.bold}>
                 Todo :
                 {'  '}
             </Text>
@@ -45,9 +45,14 @@ const styles = StyleSheet.create({
     },
     textInput: {
       padding: 5,
-      minWidth: 160,
-      borderBottomWidth: StyleSheet.hairlineWidth
-    }
+      minWidth: 200,
+      borderWidth: 2,
+      borderColor: '#eee',
+      borderRadius: 8,
+    },
+    bold: {
+      fontWeight: 'bold'
+  },
 });
 
 export default TodoInput;

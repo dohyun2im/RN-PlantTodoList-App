@@ -21,6 +21,7 @@
     "@types/redux-persist": "^4.3.1",
     "react": "18.2.0",
     "react-native": "0.71.6",
+    "react-native-bouncy-checkbox": "^3.0.7",
     "react-native-bouncy-checkbox-group": "^0.1.1",
     "react-native-calendars": "^1.1297.0",
     "react-native-encrypted-storage": "^4.0.3",

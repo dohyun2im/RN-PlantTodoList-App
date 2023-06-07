@@ -111,7 +111,7 @@ function AddModal() {
               <Text style={styles.btnText}>Submit</Text>
             </Pressable>
 
-            <Pressable style={styles.btn} onPress={toggleModal}>
+            <Pressable style={styles.closebtn} onPress={toggleModal}>
               <Text style={styles.btnText}>Close</Text>
             </Pressable>
           </View>
@@ -135,6 +135,19 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
   btn: {
+    color: 'black',
+    borderWidth: 4,
+    borderColor: '#eee', 
+    borderRadius: 5,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    margin: 5,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: 80,
+  },  
+  closebtn: {
     color: 'black',
     borderWidth: 4,
     borderColor: '#eee', 
@@ -177,7 +190,7 @@ const styles = StyleSheet.create({
       marginTop: 20,
   },
   headerWrapper: {
-    borderBottomColor: '#eee',
+    borderBottomColor: '#00e83a',
     borderBottomWidth: 3,
   }
 });

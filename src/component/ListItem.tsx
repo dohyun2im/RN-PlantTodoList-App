@@ -97,7 +97,7 @@ export default function ListItem({id, content, stage, date}:Props) {
             <View style={styles.arrow}>
                 {stage === 1 && <FontAwesome5 color='#b9ffb9' name='seedling' size={18} />}
                 {stage === 2 && <FontAwesome5 color='lightgreen' name='spa' size={15} />}
-                {stage === 3 && <FontAwesome5 style={{marginLeft: 2}} color='green' name='tree' size={18} />}
+                {stage === 3 && <FontAwesome5 style={{marginLeft: 2}} color='#00e83a' name='tree' size={18} />}
             </View>
             <Text>
                 {content}
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
   },
   complete: {
     textDecorationLine: 'none',
-    color: 'lightgreen',
+    color: '#00e83a',
     fontWeight: 'bold',
   },
   content: {
@@ -163,6 +163,7 @@ const styles = StyleSheet.create({
   trashBtn: {
     color: 'black',
     alignSelf: 'flex-end',
+    marginBottom: -3,
   },
   plus: {
     marginBottom: 3,

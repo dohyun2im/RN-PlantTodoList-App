@@ -16,9 +16,11 @@ function DatePicker({show, date, onChange, formatDate, showPicker, handleClose}:
   return (
     <>
         <View style={styles.date}>
+            <Text style={styles.bold}>
+                Date:
+            </Text>
             <Text>
-                Date : {formatDate(date)}
-                {'  '}
+                {formatDate(date)}
             </Text>
             {!show &&
                 <Pressable style={styles.addBtn} onPress={showPicker}>
@@ -60,7 +62,7 @@ const styles = StyleSheet.create({
     closeBtn: {
         color: 'black',
         borderWidth: 2.5,
-        borderColor: 'orange', 
+        borderColor: '#eee', 
         borderRadius: 5,
         padding: 5,
         justifyContent: 'center',
@@ -72,7 +74,11 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
         padding: 10,
-        marginTop: 30
+        marginTop: 30,
+        width: 265,
+    },
+    bold: {
+        fontWeight: 'bold'
     },
 });
 
